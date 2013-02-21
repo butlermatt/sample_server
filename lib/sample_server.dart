@@ -111,10 +111,7 @@ class SampleServer {
           myRouter.defaultRoute = smallRoute;
           
           myRouter.handleRequest(req);
-          /* Remember this! Technically I can also create a new
-           * RequestRouter inside of this listen statement. I can
-           * that way add sub-routes to a route.
-           */
+         
         });
         
         router.addRoute(rt);
